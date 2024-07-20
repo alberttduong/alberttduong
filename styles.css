@@ -1,0 +1,44 @@
+html {
+	font-size: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+#wrapper {
+	width: 100vw;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.block {
+	width: 50%;
+	margin: 1rem;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+#nav {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media (max-width: 40rem) {
+	.block {
+		width: 90%;
+		font-size: 0.9rem;
+	}
+}
