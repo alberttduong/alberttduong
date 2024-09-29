@@ -5,7 +5,7 @@ html {
 
 @font-face {
 	font-family: "DMSans";
-	src: url("./DMSans-VariableFont.ttf");
+	src: url("/DMSans-VariableFont.ttf");
 }
 
 img {
