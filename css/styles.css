@@ -5,7 +5,7 @@ html {
 
 @font-face {
 	font-family: "DMSans";
-	src: url("DMSans-VariableFont.ttf");
+	src: url("./DMSans-VariableFont.ttf");
 }
 
 img {
@@ -13,7 +13,7 @@ img {
 }
 
 .caption {
-	font-size: 20px;
+	font-size: 0.9rem;
 	margin: 0;
 }
 
@@ -53,7 +53,7 @@ a:visited {
 	gap: 1rem;
 }
 
-img.circle {
+.circle {
 	object-fit: cover;
 	border-radius: 50%;
 	width: 3rem;
