@@ -1,9 +1,20 @@
 html {
-	font-size: 20px;
+	font-size: 22px;
+	font-family: "DMSans";
+}
+
+@font-face {
+	font-family: "DMSans";
+	src: url("DMSans-VariableFont.ttf");
 }
 
 img {
 	width: 100%;
+}
+
+.caption {
+	font-size: 20px;
+	margin: 0;
 }
 
 #wrapper {
@@ -25,7 +36,7 @@ a:link {
 }
 
 a:visited {
-	color: blue;
+	color: darkblue;
 	text-decoration: none;
 }
 
@@ -36,7 +47,27 @@ a:visited {
 	justify-content: space-between;
 }
 
-@media (max-width: 40rem) {
+.row {
+	display: flex;
+	margin-bottom: 1rem;
+	gap: 1rem;
+}
+
+img.circle {
+	object-fit: cover;
+	border-radius: 50%;
+	width: 3rem;
+	height: 3rem;
+}
+
+@media (max-width: 70rem) {
+	.long-title {
+		flex-direction: column;
+		margin-bottom: 1rem;
+	}
+}
+
+@media (max-width: 50rem) {
 	.block {
 		width: 90%;
 		font-size: 0.9rem;
