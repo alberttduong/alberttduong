@@ -1,15 +1,14 @@
 html {
-	font-size: 22px;
-	font-family: "DMSans";
-}
-
-@font-face {
-	font-family: "DMSans";
-	src: url("/DMSans-VariableFont.ttf");
+	font-size: 18px;
 }
 
 img {
 	width: 100%;
+}
+
+h2 {
+	font-size: 1.3rem;
+	margin-bottom: -0.5rem;
 }
 
 .caption {
@@ -51,6 +50,31 @@ a:visited {
 	display: flex;
 	margin-bottom: 1rem;
 	gap: 1rem;
+}
+
+.bug-wrapper {
+	position: relative;
+}
+
+.bug {
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	z-index: -10;
+	color: gray;
+	top: -1rem;
+	left: -1.2rem;
+	fill: var(--bugcolor1);
+}
+
+:root {
+	--bugcolor1: #bfd0f2;
+}
+
+.social {
+	object-fit: cover;
+	width: 1.5rem;
+	height: 1.5rem;
 }
 
 .circle {
